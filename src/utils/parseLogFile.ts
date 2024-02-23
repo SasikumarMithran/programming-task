@@ -4,7 +4,6 @@ export const parseLogFile = (file: File, callback: (parsedData: LogData[]) => vo
     const reader = new FileReader();
     reader.onload = () => {
       const content: string = reader.result as string;
-      console.log(content)
       const lines = content.split('\n').filter(line => line.trim() !== '');
       const parsedData: LogData[] = lines.map(parseLogLine);
       callback(parsedData);
