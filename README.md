@@ -42,6 +42,8 @@ To run tests for this project, execute the following command:
 
 ```bash
 yarn test
+````
 
-Contact
+## Contact
 For any inquiries or feedback, please contact sasikumar.s.mithran@example.com.
+
